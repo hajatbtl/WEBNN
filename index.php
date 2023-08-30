@@ -92,7 +92,7 @@
 
 
       <div class="col-12" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
-        <div class="mt-5 video-container">
+        <div class="mt-5  video-container">
           <iframe width="760" height="415" src="https://www.youtube.com/embed/o_RFSjF8XKM?si=1HRyPiUFyLLQ7Hua"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -101,18 +101,19 @@
       </div>
 
 
-      <div class="col-12 "
-        style="background-size: contain; background-position:right; background-repeat: no-repeat;background-image: url('images/p3.png');">
+  <!-- partie1 -->
+
+
+      <div class="col-12 mt-3"
+        style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
         <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
-          <div style="justify-content: space-around;" class="d-flex p-5">
-
-            <div class="col-6">
-
-              <h1 style="color: #000699;"><strong>Nous rendons visible
-                  la satisfaction de vos clients à votre profit.</strong></h1>
-
-
-              <div class="col-12 mt-5 d-flex "
+          <section class="section-lg seo pt-5 m-auto">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="section-title" style="color: #000699;"><strong>Nous rendons visible la satisfaction de vos
+                      clients à votre profit.</strong></h2>
+                      <div class="col-12 mt-5 d-flex "
                 style="flex-wrap: wrap ; gap:10px; width: max-content !important;height: max-content;">
 
                 <a class="button5 p-1    " href="#contact">
@@ -186,53 +187,55 @@
                   </svg>
                 </a>
               </div>
+                </div>
+                <div class="col-md-6 mb-100">
+                  <div class="seo-image">
+                  <img class="rounded-lg" src="images/p4.png" alt="" style="max-width: 90%;">
+                  </div>
+                </div>
+              </div>
             </div>
-
-
-            <div class="col-4">
-              <img class="rounded-7" src="images/p4.png" alt="" style="max-width: 100%; transform: rotate(12deg);">
-            </div>
-
-          </div>
+          </section>
         </div>
       </div>
 
 
 
 
-      <div class="col-12 mt-3"
-      style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+
+      <div class="col-12 mt-3" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
         <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
-          <div style="justify-content: space-around;" class="d-flex p-5">
-            <div class="col-4">
-              <img class="rounded-lg" src="images/p6.png" alt="" style="max-width: 120%;">
-            </div>
-            <div class="col-6">
+          <section class="section-lg seo pt-5 m-auto">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 mb-100">
+                  <div class="seo-image">
+                    <img class="rounded-lg" src="images/p6.png" alt="" style="max-width: 90%;">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="section-title" style="color: #000699;"><strong>Nous rendons visible
+                      la satisfaction de vos clients à votre profit.</strong></h2>
+                  <div class="line-dec"></div> <br>
+                  <p class="mb-5" style="color: #000699;">Notez-Nous est LE service de notation qui s'occupe
+                    d'améliorer <br>
+                    votre réputation en ligne sans dégrader l'image de votre marque et déranger vos
+                    clients.</p>
+                  <div class="col-12 mb-5 ">
+                    <a class="button6 " href="#contact">
+                      Démarrer Maintenant
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
 
-              <h1 class="text-justify" style="color: #000699;"><strong>Nous rendons visible
-                  la satisfaction de vos clients à votre profit.</strong></h1>
-              <p class="text-justify" style="color: #000699;">Notez-Nous est LE service de notation qui s'occupe
-                d'améliorer <br>
-                votre réputation en ligne sans dégrader l'image de votre marque et déranger vos
-                clients.</p>
-
-
-              <div class="col-12 mt-5">
-                <a class="button6 " href="#contact">
-                  Démarrer Maintenant
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                  </svg>
-                </a>
               </div>
             </div>
-
-
-
-
-          </div>
+          </section>
         </div>
       </div>
 
@@ -240,26 +243,114 @@
       <div class="col-12 mt-3"
         style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
         <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
-          <div style="justify-content: space-around;" class="d-flex p-5">
+          <section class="section-lg seo pt-5 m-auto">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="section-title" style="color: #000699;"><strong>Nous rendons visible la satisfaction de vos
+                      clients à votre profit.</strong></h2>
+                  <div class="line-dec"></div> <br>
+                  <p class="mb-5" style="color: #000699;">Donnez la parole à vos clients et questionnez les sur des
+                    critères
+                    clés en
+                    utilisant nos formulaires. En quelques clics, vous serez en mesure de le mettre à votre image, de
+                    personnaliser les question ainsi
+                    que tous le parcours client. Et maintenant,activez le mode Game pour faire gagner des lots à vos
+                    clients,
+                    à condition qu’ils jouent le jeu de vous noter !</p>
+                  <div class=" mt-5 ">
+                    <a class="button6 " href="#contact">
+                      Essayez comme Sarah, médecin depuis 10 ans
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-100">
+                  <div class="seo-image">
+                  <img class="rounded-lg" src="images/p7.png" alt="" style="max-width: 90%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
-            <div class="col-6">
-<p style="font-family: cursive; font-size: smaller;color: #d89653;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" mr-2 bi bi-gem" viewBox="0 0 16 16">
-  <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
-</svg>Pourquoi Notez-Nous ?</p>
-              <h1 class="text-justify" style="color: #000699;"><strong>Nous rendons visible
-                  la satisfaction de vos clients à votre profit.</strong></h1>
-              <p class="text-justify" style="color: #000699;">La gestion de votre réputation peut être complexe lorsque vous n'avez pas le contrôle sur les avis. 
-              Vos clients publient ce qu'ils veulent sur vous, et quand ils veulent. Dans un monde où le client est roi, la maitrise de la satisfaction
-               client devient chronophrage et parfois embêtante pour un chef d'entreprise.<br>C'est pourquoi Notez-Nous regroupe toutes les fonctionnalités
-                essentielles dont vous avez besoin, telles que la collecte des avis, la gestion des formulaires et des statistiques, en une seule plateforme
-                 intuitive. 
-                 <br><strong>Avec Notez-Nous, unifiez vos processus, gagnez en productivité et impressionnez vos clients. Libérez-vous des tâches et 
-              concentrez-vous sur le développement de votre entreprise. Simplifiez votre flux de travail et maitrisez enfin votre image.</strong></p>
 
 
-              <div class="col-12 mt-5">
-                <a class="button6 " href="#contact">
-                Essayez comme Sarah, médecin depuis 10 ans
+      <!-- partie2 -->
+
+      <div class="row m-auto ">
+        <div class="pt-5 col-7 m-auto">
+          <p style="text-align:center; font-family: cursive; font-size: smaller;color: #d89653;">Le meilleur outils de
+            notation !</p>
+            <h2 class="section-title" style="text-align:center;color: #000699;"><strong>En 4 points, pourquoi Notez-Nous est l'outil
+              qu'il vous faut :</strong></h2>
+         
+        </div>
+      </div>
+
+
+      <section class=" section-lg seo pt-5 m-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="section-title" style="color:#1B66F9;">Vous noter devient un jeu.</h2>
+              <div class="line-dec"></div> <br>
+              <p class="mb-5" style="color: #000699;">Donnez la parole à vos clients et questionnez les sur des critères
+                clés en
+                utilisant nos formulaires. En quelques clics, vous serez en mesure de le mettre à votre image, de
+                personnaliser les question ainsi
+                que tous le parcours client. Et maintenant,activez le mode Game pour faire gagner des lots à vos
+                clients,
+                à condition qu’ils jouent le jeu de vous noter !</p>
+              <div style="text-align:end;">
+                <a class="button7 " href="#contact">
+                  En savoir plus
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 mb-100">
+              <div class="seo-image">
+                <img class="img-fluid" src="images/p8.png" alt="form-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-lg seo pt-5 m-auto">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-6 mb-100">
+              <div class="seo-image">
+                <img class="img-fluid" src="images/p9.png" alt="form-img">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <h2 class="section-title" style="color:#1B66F9;">Vous noter devient un jeu.</h2>
+              <div class="line-dec"></div> <br>
+              <p class="mb-5" style="color: #000699;">Donnez la parole à vos clients et questionnez les sur des critères
+                clés en
+                utilisant nos formulaires. En quelques clics, vous serez en mesure de le mettre à votre image, de
+                personnaliser les question ainsi
+                que tous le parcours client. Et maintenant,activez le mode Game pour faire gagner des lots à vos
+                clients,
+                à condition qu’ils jouent le jeu de vous noter !</p>
+              <div style="text-align:end;">
+                <a class="button7 " href="#contact">
+                  En savoir plus
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -269,13 +360,153 @@
               </div>
             </div>
 
-            <div class="col-4">
-              
-              <img class="rounded-lg mt-4" src="images/p7.png" alt="" style=" max-width: 150%;">
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="section-lg seo pt-5 mr-5 m-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="section-title" style="color:#1B66F9;">Affichez fièrement vos 5 étoiles</h2>
+              <div class="line-dec"></div> <br>
+              <p class="mb-5" style="color: #000699;">Récolter des avis, c’est bien. Les afficher, c’est mieux. Avec nos
+                widgets personnalisables à
+                l’infini, vous serez en mesure d’afficher fièrement votre réputation en ligne sur votre site internet.
+              </p>
+              <div style="text-align:end;">
+                <a class="button7 " href="#contact">
+                  En savoir plus
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 mb-100">
+              <div class="seo-image">
+                <img class="img-fluid" src="images/p10.png" alt="form-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="section-lg seo pt-5 m-auto">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-6 mb-100">
+              <div class="seo-image">
+                <img class="img-fluid" src="images/p11.png" alt="form-img">
+              </div>
             </div>
 
+            <div class="col-md-6">
+              <h2 class="section-title" style="color:#1B66F9;">Faites entrer vos clients dans votre Galaxy</h2>
+              <div class="line-dec"></div> <br>
+              <p class="mb-5" style="color: #000699;">Votre Galaxy, vous permettra de présenter à vos clients tous vos
+                services,
+                réseaux sociaux, informations importantes pour votre établissement mais surtout, votre formulaire
+                Notez-Nous.
+                Accessible depuis un unique QR Code, cette interface évolutive et 100% personnalisable sera leur seul
+                point
+                d’entrée pour vos clients dans votre Galaxy.</p>
+              <div style="text-align:end;">
+                <a class="button7 " href="#contact">
+                  En savoir plus
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
 
           </div>
+        </div>
+      </section>
+
+
+      <div class="row m-auto ">
+        <div class="pt-5 col-5 m-auto">
+         
+            <h2 class="section-title" style="text-align:center;color: #000699;"><strong>Récoltez des centaines d’avis dès maintenant</strong></h2>
+            <p class="mb-5" style="text-align:center;color: #000699;"> En sollicitant 100% de vos clients, récoltez des milliers d’avis positifs, 
+              améliorez votre réputation en ligne et votre référencement pour toujours plus de clients. </p>
+         
+        </div>
+      </div>
+
+
+
+   
+          <div class="pt-5 col-7 m-auto">
+         
+            <h2 class="section-title" style="color: #C03CFF;"><strong>Si l'avis est positif : Nous l'incitons à publier son avis sur Google.</strong></h2>
+            <p class="mb-5" style="color: #000699;"> Féliciations ! Le client à mis un avis positif sur notre plateforme, nous l'incitons donc à publier cet avis sur Google ou sur 
+            votre plateforme favorite afin de faire exploser votre réputation.</p>
+         
+        </div>
+      
+      
+
+
+
+ 
+      
+        <div class="pt-5 col-7 m-auto">
+         
+            <h2 class="section-title" style="color: #2ECD2B"><strong>Votre prestation est terminée, envoyez le formulaire à votre client.</strong></h2>
+            <p class="mb-5" style="color: #000699;"> Le client va recevoir son formulaire et profiter d'une experience client simple, rapide et efficace.</p>
+         
+        </div>
+
+       <div class="col-12"  style=" background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p14.png');">
+        <div class="pt-5 col-7 m-auto">
+         
+        <img class="img-fluid" src="images/p13.png" alt="form-img">
+        </div>
+        </div>
+     
+        <div class="pt-5 col-7 m-auto">
+         
+         <h2 class="section-title" style="color: #EC2E50;"><strong>Si l'avis est négatif : Nous remontons l'avis en interne
+           dans votre équipe et nous ne l'incitons pas à publier sur Google</strong></h2>
+         <p class="mb-5" style="color: #000699;"> Préserver votre réputation est notre métier, apprendre de vos erreurs est le votre. Nous 
+         recueillons tous les mauvais avis et nous vous les transmettons rapidement.</p>
+      
+     </div>
+
+
+
+     <div class="col-12 mt-3" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-10  m-auto bg-light">
+          <section class="section-lg seo pt-5 m-auto">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 mb-100">
+                  <div class="seo-image">
+                    <img class="rounded-lg" src="images/p15.png" alt="" style="max-width: 100%;">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                 
+                  <div class="line-dec"></div> <br>
+                  <p class="mb-5" style="color: #000699;">Prêt à faire décoller votre réputation en ligne ?</p>
+                  
+                </div>
+
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
@@ -286,9 +517,7 @@
 
 
 
-
   </div>
-
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
