@@ -14,7 +14,7 @@
 body {
   font-family: "PP Pangram Sans Rounded Medium";
   background-color: #fff;
-  height: 200vh;
+  /* height: 200vh; */
   position: relative;
 }
 
@@ -733,4 +733,29 @@ a:hover {
 
 .btnpricing.selected {
   background: #D1E0FF;
+}
+
+.custom-button1 {
+  font-size: 0.7rem !important;
+  background-color: #fff !important;
+  border: none;
+  border-radius: 50px;
+  width: 40%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.custom-button2 {
+  font-size: 0.7rem !important;
+ 
+  border: none;
+  border-radius: 50px;
+  width: 40%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }

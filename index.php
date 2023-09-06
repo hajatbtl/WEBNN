@@ -27,7 +27,7 @@
   <!-- aos -->
   <link rel="stylesheet" href="as/plugins/aos/aos.css">
 
- 
+
   <!-- Style -->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -40,7 +40,14 @@
 
 <body>
 
-  <?php include 'header.php' ?>
+<div
+  style=" line-height: 40px; height: 40px; background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);background-repeat: no-repeat; ">
+
+  <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre nouveau
+    site internet</p>
+
+</div>
+<?php include 'header.php' ?>
 
   <div class="hero" style="background-image: url('images/bg.png');">
     <div class="row">
@@ -959,7 +966,7 @@
 
     <div class="col-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
       <div
-        style="border-radius:40px;background-color: #090B4D; background-image: url('images/p28.png');background-size: cover;"
+        style="height:500px;border-radius:40px;background-color: #090B4D; background-image: url('images/p28.png');background-size: cover;"
         class="shadow-lg p-3 mb-5  col-10 m-auto ">
         <section class=" pt-5 m-auto">
           <div class="ml-5">
@@ -967,7 +974,7 @@
 
 
 
-              <div class="col-md-6">
+              <div class="col-md-6" >
 
                 <h2 class="section-title" style="color: #fff;">Prêt à faire décoller votre réputation en ligne ?</h2>
                 <p class=" " style="color:#E9D7FE;">Rejoignez +390 entreprises qui utilisent Notez-Nous
@@ -1006,7 +1013,42 @@
 
 
 
+    <section class=" seo pt-5 m-auto">
+      <div class="container ">
+        <div class="row">
 
+          <div class="col-7">
+            <h2 class="section-title" style="font-size:30px;color: #000699;"><strong>Commencez votre
+                essai gratuit de
+                30 jours.</strong></h2>
+
+            <p class="mb-5" style="color: #000699; opacity:50%">Rejoignez +390 entreprises qui utilisent
+              Notez-Nous
+              et collectez enfin
+              vos avis de manière intéligente !</p>
+
+          </div>
+
+
+          <div class="col-5  button-container d-flex align-items-center justify-content-center">
+
+            <button
+              style="color: #fff;border: none;border-radius: 50px;background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);"
+              class="btn " type="button">Démarrez gratuitement</button>
+            <div class="ml-2"></div> <button
+              style="border-radius: 50px;background-color: #fff;color:#344054; border: 0.002px solid  #000107;"
+              class="btn " type="button">Découvrir en 30s</button>
+          </div>
+
+
+
+
+
+        </div>
+
+      </div>
+  
+  </section>
 
 
 </body>

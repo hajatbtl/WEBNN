@@ -5,7 +5,14 @@
 
 
 <body>
+    <div
+        style=" line-height: 40px; height: 40px; background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); ">
 
+        <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre
+            nouveau
+            site internet</p>
+
+    </div>
     <?php include 'header.php' ?>
     <div class="mt-5">
         <div class="col-12 mt-3"
@@ -33,7 +40,7 @@
 
 
                                 <!-- partie secteur -->
-                                <div id="secteur" style="border-radius:40px;"
+                                <div id="secteur" style="height:580px;border-radius:40px;"
                                     class="shadow-lg p-3 mb-5 bg-body   m-auto bg-light">
                                     <div class="row" style="text-align: center">
                                         <div style="">
@@ -61,22 +68,22 @@
                                                 d’activitée ?
                                             </p>
                                             <div class="row  justify-content-center">
-                                                <div class="col-md-6">
+                                                <div class="col-6">
                                                     <a class="btnpricing p-3" id="btn-sante" href="#contact">
                                                         👨🏻‍⚕️ La santé
                                                     </a>
                                                 </div>
-                                                <div class="col-md-6 ">
+                                                <div class="col-6 ">
                                                     <a class="btnpricing p-3" id="btn-formation" href="#contact">
                                                         🏗️ La formation
                                                     </a>
                                                 </div>
-                                                <div class="col-md-6 mt-2">
+                                                <div class="col-6 mt-2">
                                                     <a class="btnpricing p-3" id="btn-autre" href="#contact">
                                                         👀 Autres
                                                     </a>
                                                 </div>
-                                                <div class="col-md-6 mt-2">
+                                                <div class="col-6 mt-2">
                                                     <a class="btnpricing p-3" id="btn-artisant" href="#contact">
                                                         📚Artisant
                                                     </a>
@@ -93,7 +100,7 @@
                                     </div>
                                 </div>
                                 <!-- partie métier -->
-                                <div id="sante" style="border-radius:40px; display: none;"
+                                <div id="sante" style="height:580px;border-radius:40px; display: none;"
                                     class="shadow-lg p-3 mb-5 bg-body   m-auto bg-light">
                                     <div class="row" style="text-align: center">
                                         <div>
@@ -215,7 +222,7 @@
                                                 <button style="color: #000699;border: none;border-radius: 50px;"
                                                     class="btn px-4 btn-reset " type="button">Reinitialiser</button>
 
-                                                <button type="button" class="px-4 btn btn-primary"
+                                                <button id="btn-plusp-next" type="button" class="px-4 btn btn-primary"
                                                     style="border: none;border-radius: 50px; background-color: #1B66F9; color: white;">Suivant</button>
                                             </div>
 
@@ -358,13 +365,11 @@
 
 
                                 <div id="plusp"
-                                    style="border-radius: 40px; display: none;   background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); !important;"
+                                    style="height:580px; border-radius: 40px; display: none;   background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); !important;"
                                     class="shadow-lg p-3 mb-5 bg-body m-auto bg-light">
                                     <div class="row" style="text-align: center">
 
                                         <!-- Image in the top-right corner -->
-                                        <img class="mr-2" src="images/orthalis.png" alt=""
-                                            style="max-width: 20%; position: absolute; top: 39px; right:12px;">
 
                                         <div style="">
                                             <h6 class="mb-3" style="color: #fff"><strong>Tarification</strong> </h6>
@@ -417,7 +422,7 @@
 
                                             <div class="pl-5 pr-5">
                                                 <div class="row">
-                                                    <button id="btn-plusp-next" type="button" class=" btn btn-primary"
+                                                    <button type="button" class=" btn btn-primary"
                                                         style="border: none;border-radius: 50px; background-color: #fff; color: #1B66F9;">Suivant</button>
                                                 </div>
                                             </div>
