@@ -5,7 +5,7 @@
 
 
 <body>
-    <div
+    <div class="preheader"
         style=" line-height: 40px; height: 40px; background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); ">
 
         <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre

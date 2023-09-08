@@ -1,7 +1,7 @@
 <!--====== FOOTER ONE PART START ======-->
 <footer class="footer-area footer-one">
 
-    <div class="footer-widget">
+    <div class="mb-2">
         <div class="container">
 
             

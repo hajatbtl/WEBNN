@@ -40,23 +40,22 @@
 
 <body>
 
-<div
-  style=" line-height: 40px; height: 40px; background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);background-repeat: no-repeat; ">
+  <div class="preheader"
+    style=" line-height: 40px; height: 40px; background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);background-repeat: no-repeat; ">
 
-  <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre nouveau
-    site internet</p>
+    <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre nouveau
+      site internet</p>
 
-</div>
-<?php include 'header.php' ?>
+  </div>
+  <?php include 'header.php' ?>
 
   <div class="hero" style="background-image: url('images/bg.png');">
-    <div class="row">
+    <div class="row m-0">
 
       <div class="position-relative">
         <div class="image-with-overlay">
-          <img class="mt-5 pt-1" src="images/p0.png" alt="" style="max-width: 100%;">
-          <div class="overlay-text"
-            style="text-align: center; position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%);">
+          <img class=" image-etoile" src="images/p0.png" alt="">
+          <div class="overlay-text text-index">
             <h2 style="color: #000699;">Les 5 étoiles qui feront toute <br>la différence pour votre entreprise.</h2>
             <p style="color: #000699;">Notez-Nous est LE service de notation qui s'occupe
               d'améliorer <br>
@@ -68,39 +67,38 @@
 
 
 
-      <div class="mt-3 col-12 d-flex align-items-center justify-content-center">
+      <div class="mt-3  col-md-12 d-flex align-items-center justify-content-center">
         <img src="images/p1.png" alt="" style="max-width: 6%;">
         <p class="ml-2 mt-2" style="color:#4245a2;">Essayez comme +350 entreprises !</p>
       </div>
 
 
 
-      <div class="col-12">
-        <div class="mt-5 button-container d-flex align-items-center justify-content-center">
-          <a class="button3" href="#contact">
-            Démarrer Maintenant
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-            </svg>
-          </a>
-          <a class="bouton2 inscription-button ml-2 rounded-pill " href="#contact"><svg class="mr-2"
-              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right"
-              viewBox="0 0 16 16">
-              <path
-                d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-            </svg>Voir nos dernières nouveautés </a>
-        </div>
+      <div class="mt-5 gap-2 button-container d-flex align-items-center justify-content-center flex-wrap">
+        <a class="button3" href="#contact">
+          Démarrer Maintenant
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+          </svg>
+        </a>
+        <a class="bouton2 inscription-button ml-2 rounded-pill " href="#contact"><svg class="mr-2"
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right"
+            viewBox="0 0 16 16">
+            <path
+              d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+          </svg>Voir nos dernières nouveautés </a>
       </div>
 
 
-      <div class="col-12" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
-        <div class="mt-5  video-container">
-          <iframe width="760" height="415" src="https://www.youtube.com/embed/o_RFSjF8XKM?si=1HRyPiUFyLLQ7Hua"
+      <div class="col-md-12" style="background-repeat: no-repeat; background-image: url('images/p2.png');">
+        <div class=" video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8LvYGxF-Km8?si=07HaQOKeEp4KblGB"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            allowfullscreen class="video"  style="border-radius:50px;"></iframe>
+          
         </div>
       </div>
 
@@ -108,9 +106,9 @@
       <!-- partie1 -->
 
 
-      <div class="col-12 mt-3"
+      <div class=" col-md-12 mt-3"
         style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
           <section class="  pt-5 m-auto">
             <div class="container">
               <div class="row">
@@ -119,7 +117,7 @@
                 <div class="col-md-6">
                   <h2 class="section-title" style="color: #000699;"><strong>Nous rendons visible la satisfaction de vos
                       clients à votre profit.</strong></h2>
-                  <div class="col-12 mt-5 d-flex "
+                  <div class=" col-12 mt-5 d-flex "
                     style="flex-wrap: wrap ; gap:10px; width: max-content !important;height: max-content;">
 
                     <a class="button5 p-1    " href="#contact">
@@ -180,7 +178,7 @@
                     </a>
                   </div>
 
-                  <div class="col-12 mt-5">
+                  <div class=" col-md-12 mt-5">
                     <a class="button4 " href="#contact">
                       Démarrer Maintenant
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -212,8 +210,8 @@
 
 
 
-      <div class="col-12 mt-3" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
+      <div class=" col-md-12 mt-3" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
           <section class="  pt-5 m-auto">
             <div class="container">
               <div class="row">
@@ -231,7 +229,7 @@
                     votre réputation en ligne sans dégrader l'image de votre marque et déranger vos
                     clients.
                   </p>
-                  <div class="col-12 mb-5 ">
+                  <div class=" col-md-12 mb-5 ">
                     <a class="button6 " href="#contact">
                       Démarrer Maintenant
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -250,9 +248,9 @@
       </div>
 
 
-      <div class="col-12 mt-3"
+      <div class=" col-md-12 mt-3"
         style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body  col-8  m-auto bg-light">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
           <section class="  pt-5 m-auto">
             <div class="container">
               <div class="row">
@@ -286,7 +284,7 @@
                 </div>
                 <div class="col-md-6 mb-100">
                   <div class="seo-image">
-                    <img class="rounded-lg" src="images/p7.png" alt="" style="max-width: 90%;">
+                    <img class="mt-3 rounded-lg" src="images/p7.png" alt="" style="max-width: 90%;">
                   </div>
                 </div>
               </div>
@@ -300,7 +298,7 @@
       <!-- partie2 -->
 
       <div class="row m-auto ">
-        <div class="pt-5 col-7 m-auto">
+        <div class="pt-5  col-md-7 m-auto">
           <p style="text-align:center; font-family: cursive; font-size: smaller;color: #d89653;">Le meilleur outils de
             notation !</p>
           <h2 class="section-title" style="text-align:center;color: #000699;"><strong>En 4 points, pourquoi Notez-Nous
@@ -452,7 +450,7 @@
 
 
       <div class="row m-auto ">
-        <div class="pt-5 col-5 m-auto">
+        <div class="pt-5  col-md-5 m-auto">
 
           <h2 class="section-title" style="text-align:center;color: #000699;"><strong>Récoltez des centaines d’avis dès
               maintenant</strong></h2>
@@ -466,7 +464,7 @@
 
 
 
-      <div class="pt-5 col-7 m-auto">
+      <div class="pt-5  col-md-7 m-auto">
 
         <h2 class="section-title" style="color: #C03CFF;"><strong>Si l'avis est positif : Nous l'incitons à publier son
             avis sur Google.</strong></h2>
@@ -482,7 +480,7 @@
 
 
 
-      <div class="pt-5 col-7 m-auto">
+      <div class="pt-5  col-md-7 m-auto">
 
         <h2 class="section-title" style="color: #2ECD2B"><strong>Votre prestation est terminée, envoyez le formulaire à
             votre client.</strong></h2>
@@ -491,15 +489,15 @@
 
       </div>
 
-      <div class="col-12"
+      <div class=" col-md-12"
         style=" background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p14.png');">
-        <div class="pt-5 col-7 m-auto">
+        <div class="pt-5  col-md-7 m-auto">
 
           <img class="img-fluid" src="images/p13.png" alt="form-img">
         </div>
       </div>
 
-      <div class="pt-5 col-7 m-auto">
+      <div class="pt-5  col-md-7 m-auto">
 
         <h2 class="section-title" style="color: #EC2E50;"><strong>Si l'avis est négatif : Nous remontons l'avis en
             interne
@@ -512,7 +510,7 @@
 
 
 
-      <div class="col-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+      <div class=" col-md-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
         <div style="border-radius:40px; background-image: url('images/p16.png');background-size: cover;"
           class="shadow-lg p-3 mb-5 bg-body col-10 m-auto ">
           <section class=" pt-5 m-auto">
@@ -527,7 +525,7 @@
 
                 <div class="col-md-6">
 
-                  <div class="line-dec"></div> <br>
+
                   <h2 class="section-title" style="color: #fff;">Prêt à faire décoller votre réputation en ligne ?</h2>
                   <p class="mt-5 " style="margin-left: 17px;color:#E9D7FE;"> Demander une démo de l'outil</p>
                   <div>
@@ -555,7 +553,7 @@
 
 
     <div class="row m-auto ">
-      <div class="pt-5 col-5 m-auto">
+      <div class="pt-5  col-md-5 m-auto">
         <p style="font-family: Gaegu; font-size: 24px;color: #d89653; text-align:center;">Le meilleur outil de notation
           !
         </p>
@@ -635,7 +633,7 @@
                 <div class="row" style="    ">
 
 
-                  <div class="col-6 m-auto custom-col">
+                  <div class="col-md-6 m-auto custom-col">
                     <h2 class="section-title" style="font-size:30px;color: #000699;">Notre intelligence artificielle
                       Notee
                       vous accompagne.</h2>
@@ -651,7 +649,7 @@
 
                   </div>
 
-                  <div class="col-6 m-auto">
+                  <div class="col-md-6 m-auto">
                     <img class="" src="images/p20.png" alt="" style="max-width: 100%;">
                   </div>
 
@@ -760,7 +758,7 @@
     </div>
 
 
-    <div class="col-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+    <div class=" col-md-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
       <div
         style="background-color: #090B4D;border-radius:40px; background-image: url('images/p29.png');background-size: cover;"
         class="shadow-lg  mb-5  col-10 m-auto ">
@@ -768,7 +766,7 @@
 
           <div class="container">
             <div class="row ">
-              <div class="pt-5 col-8 m-auto">
+              <div class="pt-5  col-md-8 m-auto">
 
 
                 <h2 class="section-title" style="text-align:center;color: #fff;"><strong>Ils parlent de nous </strong>
@@ -786,7 +784,7 @@
 
             <div class="row ">
 
-              <div class="team-slider col-12">
+              <div class="team-slider  col-md-12">
                 <!-- team-member -->
                 <div class="p-0 m-0">
 
@@ -820,7 +818,7 @@
 
 
               <div class="row ">
-                <div class="pt-5 col-6 m-auto">
+                <div class="pt-5 col-md-6 m-auto">
 
 
                   <h2 class="section-title" style="text-align:center;color: #fff;"><strong>FAQs</strong></h2>
@@ -936,7 +934,7 @@
 
 
                   <div class="row justify-content-between">
-                    <div class="col-8 ">
+                    <div class=" col-md-8 ">
                       <div class="d-flex align-items-center " style="">
 
                         <h6 style="color:#fff" class=" ml-2 mt-1 ">Still have questions?</h6>
@@ -964,7 +962,7 @@
 
 
 
-    <div class="col-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
+    <div class=" col-md-12 mt-3 pb-0" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
       <div
         style="height:500px;border-radius:40px;background-color: #090B4D; background-image: url('images/p28.png');background-size: cover;"
         class="shadow-lg p-3 mb-5  col-10 m-auto ">
@@ -974,7 +972,7 @@
 
 
 
-              <div class="col-md-6" >
+              <div class="col-md-6">
 
                 <h2 class="section-title" style="color: #fff;">Prêt à faire décoller votre réputation en ligne ?</h2>
                 <p class=" " style="color:#E9D7FE;">Rejoignez +390 entreprises qui utilisent Notez-Nous
@@ -1017,7 +1015,7 @@
       <div class="container ">
         <div class="row">
 
-          <div class="col-7">
+          <div class="col-md-7">
             <h2 class="section-title" style="font-size:30px;color: #000699;"><strong>Commencez votre
                 essai gratuit de
                 30 jours.</strong></h2>
@@ -1030,7 +1028,7 @@
           </div>
 
 
-          <div class="col-5  button-container d-flex align-items-center justify-content-center">
+          <div class="col-md-5  button-container d-flex align-items-center justify-content-center">
 
             <button
               style="color: #fff;border: none;border-radius: 50px;background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);"
@@ -1047,8 +1045,8 @@
         </div>
 
       </div>
-  
-  </section>
+
+    </section>
 
 
 </body>

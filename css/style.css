@@ -1,14 +1,14 @@
-@font-face{
+@font-face {
   font-family: "PP Pangram Sans Rounded Medium";
   src: url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.eot");
   src: url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.eot?#iefix")format("embedded-opentype"),
-      url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.woff")format("woff"),
-      url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.woff2")format("woff2"),
-      url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.ttf")format("truetype"),
-      url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.svg#PP Pangram Sans Rounded Medium")format("svg");
-  font-weight:normal;
-  font-style:normal;
-  font-display:swap;
+    url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/261bd41f743f968436b6709532d4343e.svg#PP Pangram Sans Rounded Medium")format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -482,25 +482,30 @@ a:hover {
 .footer-one {
   background-color: var(--light-2);
 }
+
 .footer-one .footer-logo {
   margin-top: 30px;
 }
+
 .footer-one .footer-widget {
   padding-top: 70px;
   padding-bottom: 100px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-one .footer-widget {
     padding-top: 40px;
     padding-bottom: 70px;
   }
 }
+
 @media (max-width: 767px) {
   .footer-one .footer-widget {
     padding-top: 20px;
     padding-bottom: 50px;
   }
 }
+
 .footer-one .footer-title {
   font-size: 18px;
   font-weight: 600;
@@ -508,9 +513,11 @@ a:hover {
   color: var(--black);
   position: relative;
 }
+
 .footer-one .footer-app-store {
   padding-top: 22px;
 }
+
 .footer-one .footer-app-store .download-title {
   font-size: 15px;
   display: block;
@@ -518,36 +525,44 @@ a:hover {
   font-weight: 500;
   color: var(--dark-1);
 }
+
 .footer-one .footer-app-store li {
   display: inline-block;
   margin-right: 8px;
 }
+
 .footer-one .footer-app-store li img {
   max-width: 140px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-one .footer-app-store li {
     margin-right: 6px;
   }
 }
+
 .footer-one .footer-app-store li:last-child {
   margin-right: 0;
 }
+
 @media (max-width: 767px) {
   .footer-one .footer-app-store li {
     width: 120px;
     display: block;
     margin-bottom: 10px;
   }
+
   .footer-one .footer-app-store li:last-child {
     margin: 0;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .footer-one .footer-app-store li {
     width: auto;
   }
 }
+
 .footer-one .footer-app-store li a {
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
@@ -555,6 +570,7 @@ a:hover {
   -o-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
 }
+
 .footer-one .footer-app-store li a:hover {
   box-shadow: var(--shadow-4);
   -webkit-transform: translateY(-4px);
@@ -563,23 +579,30 @@ a:hover {
   -o-transform: translateY(-4px);
   transform: translateY(-4px);
 }
+
 .footer-one .f-about {
   margin-top: 30;
 }
+
 .footer-one .f-about .text {
   margin-top: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+only screen and (min-width: 1400px) {
   .footer-one .f-about {
     padding-right: 200px;
   }
 }
+
 .footer-one .footer-link {
   margin-top: 30px;
 }
+
 .footer-one .footer-link ul {
   margin-top: 8px;
 }
+
 .footer-one .footer-link ul a {
   font-size: 16px;
   line-height: 24px;
@@ -592,20 +615,25 @@ a:hover {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 @media (max-width: 767px) {
   .footer-one .footer-link ul a {
     margin-top: 12px;
   }
 }
+
 .footer-one .footer-link ul a:hover {
   color: var(--primary);
 }
+
 .footer-one .footer-contact {
   margin-top: 30px;
 }
+
 .footer-one .footer-contact ul {
   margin-top: 24px;
 }
+
 .footer-one .footer-contact ul li {
   display: block;
   margin-top: 15px;
@@ -613,36 +641,45 @@ a:hover {
   padding-left: 24px;
   color: var(--dark-3);
 }
+
 .footer-one .footer-contact ul li:first-child {
   margin: 0;
 }
+
 .footer-one .footer-contact ul li i {
   font-size: 18px;
   position: absolute;
   left: 0;
   top: 4px;
 }
+
 .footer-one .footer-copyright {
   border-top: 1px solid var(--gray-4);
 }
+
 .footer-one .copyright {
   padding-bottom: 23px;
   padding-top: 13px;
 }
+
 .footer-one .copyright .text {
   color: var(--dark-3);
   margin-top: 10px;
 }
+
 .footer-one .social {
   margin-top: 10px;
 }
+
 .footer-one .social li {
   display: inline-block;
   margin-right: 15px;
 }
+
 .footer-one .social li:last-child {
   margin-right: 0;
 }
+
 .footer-one .social li a {
   font-size: 18px;
   color: var(--dark-3);
@@ -652,6 +689,7 @@ a:hover {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 .footer-one .social li a:hover {
   color: var(--primary);
 }
@@ -690,6 +728,7 @@ a:hover {
   text-decoration: none;
 
 }
+
 .button6 {
   background-color: #dce6f9;
   color: #000699;
@@ -698,8 +737,9 @@ a:hover {
   text-decoration: none;
 
 }
+
 .button7 {
-  background: linear-gradient(37deg, rgb(241, 125, 16) 36%, rgba(250,235,161,1) 95%);
+  background: linear-gradient(37deg, rgb(241, 125, 16) 36%, rgba(250, 235, 161, 1) 95%);
   color: #fff;
   padding: 1% 3%;
   border-radius: 50px;
@@ -710,24 +750,27 @@ a:hover {
 .button5 {
   background-color: #fff;
   color: #141413;
-  border: 0.1px solid #000107;
+  border: 0.1px solid #00010726;
   border-radius: 50px;
   text-decoration: none;
   width: max-content !important;
   height: max-content;
 
 }
+
 .btnpricing {
-  
+
   color: #141413;
   border: 0.1px solid #9ba3d0;
   border-radius: 15px;
   display: block;
-  width:246px;
+  width: 246px;
   height: 77px;
 
 }
-.slick-prev:before, .slick-next:before {
+
+.slick-prev:before,
+.slick-next:before {
   color: black !important;
 }
 
@@ -740,22 +783,104 @@ a:hover {
   background-color: #fff !important;
   border: none;
   border-radius: 50px;
-  width: 40%;
+  width: 48%;
   height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
+
 .custom-button2 {
   font-size: 0.7rem !important;
- 
+
   border: none;
   border-radius: 50px;
-  width: 40%;
+  width: 48%;
   height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.circle-border {
+  width: 20%;
+  height: 80%;
+  border: 1vw solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-border img {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  /* Maintain aspect ratio and cover container */
+}
+
+.icon {
+  width: 12px;
+}
+
+.preheader {
+  display: block;
+}
+
+.image-etoile{
+  width: 100%;
+}
+.video{
+  border-radius: 50px;
+}
+
+@media only screen and (min-width :500px) {
+  .text-index {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (max-width :500px) {
+  .preheader {
+    display: none;
+  }
+
+  .menulo {
+    margin-top: -27px;
+  }
+
+  .logomobile {
+    width: 46%;
+    margin-left: -23px;
+    margin-bottom: -8px;
+  }
+
+  .text-index{
+    text-align: center;
+  }
+  .image-etoile{
+    width: 131%;
+    margin-left: -100px;
+    margin-top: 64px;
+  }
+  .video{
+    border-radius: 25px;
+    height: 204px;
+  }
+  .video-container {
+    height: 400px;
+  }
+
+}
+
+/* @media only screen and (max-width :) */

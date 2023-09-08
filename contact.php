@@ -5,9 +5,9 @@
 
 
 <body>
-    <div  style="background-image: url('images/bg.png'); ">
-        <div class="row">
-            <div
+    <div  style="background-image: url('images/bg.png');     background-repeat: no-repeat; ">
+        <div class="row  m-0">
+            <div class="preheader"
                 style=" line-height: 40px; height: 40px; background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); ">
 
                 <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter
@@ -19,7 +19,7 @@
             <?php include 'header.php' ?>
         </div>
 
-        <div class="container mt-5 pt-5">
+        <div class="container ">
             <div class="row mt-5 " style="text-align: center;">
 
                 <p class="mt-5 gaegu" style="font-family: Gaegu; font-size: 24px;color: #1B66F9;"><strong>Pourquoi Notez-Nous ?</strong>
@@ -52,7 +52,7 @@
 
             <br>
             <div class="container mt-5 ">
-                <div class="col-8 m-auto mb-5 text-center">
+                <div class="col-md-8 m-auto mb-5 text-center">
                     <ul class="gap-2 nav nav-tabs justify-content-center" id="myTabs"
                         style="background: #EAECF0; padding: 10px; border-radius: 29px;">
 

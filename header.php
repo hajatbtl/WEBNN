@@ -1,5 +1,3 @@
-
-
 <!-- header -->
 
 <div class="site-mobile-menu">
@@ -12,14 +10,14 @@
 </div>
 
 
-<header class="site-navbar mt-4 " role="banner">
+<header class="site-navbar  " role="banner">
 
   <div class="container">
-    <div class="row align-items-center">
+    <div class="menulo d-flex align-items-center">
 
       <div class="col-11 col-xl-2">
-        <h1 class="mb-0 site-logo "><a href="index.html" class="text-white mb-0"><img src="images/logo.png"
-              style="  width: 50%;" alt="logo" class=" fs-5"></a></h1>
+       <img src="images/logo.png"
+              style="  width: 50%;" alt="logo" class="logomobile ">
       </div>
       <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
@@ -43,8 +41,25 @@
                 </li>
               </ul>
             </li>
+            <li class="has-children">
+              <a href="about.html" style="color: #000699; "><span>Ressources</span></a>
+              <ul class="dropdown arrow-top">
+                <li><a href="#" style="color: #000699; ">Menu One</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Two</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Three</a></li>
+                <li class="has-children">
+                  <a href="#" style="color: #000699; ">Ressources</a>
+                  <ul class="dropdown">
+                    <li><a href="#" style="color: #000699; ">Menu One</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Two</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Three</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Four</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <li><a href="listings.html" style="color: #000699; "><span>Pricing</span></a></li>
-            <li><a href="about.html" style="color: #000699; "><span>About</span></a></li>
+            
             <li><a href="blog.html" style="color: #000699; "><span>Log in</span></a></li>
             <li class="active"><a href="contact.html" style="color: #000699; "><span>Sign up</span></a></li>
           </ul>
