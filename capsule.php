@@ -23,7 +23,7 @@
                 <div style="border-radius:40px;">
                     <section class="  pt-5 m-auto">
                         <div class="container">
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-md-6">
 
                                     <h2 class="section-title mt-3" style="color: #000699;"><strong> Depuis votre
@@ -35,7 +35,7 @@
 
                                     </p>
 
-                                    <div class="mt-5 button-container d-flex align-items-center ">
+                                    <div class="mt-5 mb-5 button-container d-flex align-items-center ">
                                         <a class="button3" href="#contact">
                                             Démarrer Maintenant
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"

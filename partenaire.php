@@ -6,19 +6,19 @@
 
 <body>
     <div style="background-image: url('images/bg.png');background-repeat: no-repeat;    background-size: cover; ">
-        <div class="row mb-0">
-            <div class="mb-5"
+        <div class="row m-0">
+          
+
+            <div class="preheader"
                 style=" line-height: 40px; height: 40px; background: linear-gradient(17deg, rgba(253,137,45,0.6156708533022583) 0%, rgba(244,93,255,0.6262811398973651) 23%, rgba(155,45,253,0.5226396833147322) 54%, rgba(34,193,195,0.5898665740710347) 100%); ">
 
                 <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter
-                    notre
-                    nouveau
+                    notre nouveau
                     site internet</p>
 
             </div>
-           
-                <?php include 'header.php' ?>
-           
+            <?php include 'header.php' ?>
+
         </div>
 
         <div class="container mt-5 pt-5">
@@ -64,7 +64,8 @@
                                     <img class="" src="images/veasy.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Veasy</strong></h2>
+                                            <strong>Veasy</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -84,7 +85,8 @@
                                     <img class="" src="images/orthalis.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Orthalis</strong></h2>
+                                            <strong>Orthalis</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -103,7 +105,8 @@
                                     <img class="" src="images/v3.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Veasy</strong></h2>
+                                            <strong>Veasy</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -122,7 +125,8 @@
                                     <img class="" src="images/v4.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Veasy</strong></h2>
+                                            <strong>Veasy</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -142,7 +146,8 @@
                                     <img class="" src="images/orthokis.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Orthokis</strong></h2>
+                                            <strong>Orthokis</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -161,7 +166,8 @@
                                     <img class="" src="images/v5.png" alt="" style="max-width: 20%;">
                                     <div>
                                         <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                            <strong>Veasy</strong></h2>
+                                            <strong>Veasy</strong>
+                                        </h2>
 
                                         <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                             qui utilisent Notez-Nous
@@ -187,7 +193,8 @@
                                 <img class="" src="images/orthalis.png" alt="" style="max-width: 20%;">
                                 <div>
                                     <h2 class="section-title" style="font-size:30px;color: #000699;">
-                                        <strong>Doctolib</strong></h2>
+                                        <strong>Doctolib</strong>
+                                    </h2>
 
                                     <p class="mb-4" style="color: #000699; opacity:50%">Rejoignez +390 entreprises
                                         qui utilisent Notez-Nous
@@ -250,39 +257,41 @@
     </div>
     </div>
     <section class=" seo pt-5 m-auto">
-        <div class="container ">
-            <div class="row">
+      <div class="container ">
+        <div class="row">
 
-                <div class="col-7">
-                    <h2 class="section-title" style="font-size:30px;color: #000699;"><strong>Commencez votre
-                            essai gratuit de
-                            30 jours.</strong></h2>
+          <div class="col-md-7">
+            <h2 class="section-title" style="font-size:30px;color: #000699;"><strong>Commencez votre
+                essai gratuit de
+                30 jours.</strong></h2>
 
-                    <p class="mb-5" style="color: #000699; opacity:50%">Rejoignez +390 entreprises qui utilisent
-                        Notez-Nous
-                        et collectez enfin
-                        vos avis de manière intéligente !</p>
+            <p class="mb-5" style="color: #000699; opacity:50%">Rejoignez +390 entreprises qui utilisent
+              Notez-Nous
+              et collectez enfin
+              vos avis de manière intéligente !</p>
 
-                </div>
-
-
-                <div class="col-5  button-container d-flex align-items-center justify-content-center">
-
-                    <button
-                        style="color: #fff;border: none;border-radius: 50px;background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);"
-                        class="btn " type="button">Démarrez gratuitement</button>
-                    <div class="ml-2"></div> <button
-                        style="border-radius: 50px;background-color: #fff;color:#344054; border: 0.002px solid  #000107;"
-                        class="btn " type="button">Découvrir en 30s</button>
-                </div>
+          </div>
 
 
+          <div class="col-md-5  button-container d-flex align-items-center justify-content-center">
+
+            <button
+              style="color: #fff;border: none;border-radius: 50px;background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);"
+              class="btn " type="button">Démarrez gratuitement</button>
+            
+              
+             <button
+              style="border-radius: 50px;background-color: #fff;color:#344054; border: 0.002px solid  #000107;"
+              class="ml-1 btn " type="button">Découvrir en 30s</button>
+          </div>
 
 
 
-            </div>
+
 
         </div>
+
+      </div>
 
     </section>
 </body>

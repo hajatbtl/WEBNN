@@ -13,38 +13,47 @@
 <header class="site-navbar  " role="banner">
 
   <div class="container">
-    <div class="d-flex align-items-center">
+    <div class="menulo d-flex align-items-center">
 
       <div class="col-11 col-xl-2">
        <img src="images/logoblanc.png"
-              style="  width: 10rem;" alt="logo" class=" ">
+              style="  width: 50%;" alt="logo" class="logomobile ">
       </div>
       <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
 
           <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-            <li><a href="index.html" style="color: # fff; "><span>Home</span></a></li>
+            <li><a href="index.php" style="color: #000699; "><span>Home</span></a></li>
             <li class="has-children">
-              <a href="about.html" style="color: # fff; "><span>Products</span></a>
+              <a href="about.html" style="color: #000699; "><span>Products</span></a>
               <ul class="dropdown arrow-top">
-                <li><a href="#" style="color: # fff; ">Menu One</a></li>
-                <li><a href="#" style="color: # fff; ">Menu Two</a></li>
-                <li><a href="#" style="color: # fff; ">Menu Three</a></li>
+                <li><a href="#" style="color: #000699; ">Menu One</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Two</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Three</a></li>
+                
+              </ul>
+            </li>
+            <li class="has-children">
+              <a href="about.html" style="color: #000699; "><span>Ressources</span></a>
+              <ul class="dropdown arrow-top">
+                <li><a href="#" style="color: #000699; ">Menu One</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Two</a></li>
+                <li><a href="#" style="color: #000699; ">Menu Three</a></li>
                 <li class="has-children">
-                  <a href="#" style="color: # fff; ">Ressources</a>
+                  <a href="#" style="color: #000699; ">Ressources</a>
                   <ul class="dropdown">
-                    <li><a href="#" style="color: # fff; ">Menu One</a></li>
-                    <li><a href="#" style="color: # fff; ">Menu Two</a></li>
-                    <li><a href="#" style="color: # fff; ">Menu Three</a></li>
-                    <li><a href="#" style="color: # fff; ">Menu Four</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu One</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Two</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Three</a></li>
+                    <li><a href="#" style="color: #000699; ">Menu Four</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li><a href="listings.html" style="color: # fff; "><span>Pricing</span></a></li>
-            <li><a href="about.html" style="color: # fff; "><span>About</span></a></li>
-            <li><a href="blog.html" style="color: # fff; "><span>Log in</span></a></li>
-            <li class="active"><a href="contact.html" style="color: # fff; "><span>Sign up</span></a></li>
+            <li><a href="listings.html" style="color: #000699; "><span>Pricing</span></a></li>
+            
+            <li><a href="blog.html" style="color: #000699; "><span>Log in</span></a></li>
+            <li class="active"><a href="contact.html" style="color: #000699; "><span>Sign up</span></a></li>
           </ul>
         </nav>
       </div>

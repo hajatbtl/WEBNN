@@ -96,7 +96,7 @@
 
             <div class="col-md-6 mb-100">
               <div class="seo-image">
-                <img class="img-fluid" src="images/p33.png" alt="form-img">
+                <img class="mt-3 img-fluid" src="images/p33.png" alt="form-img">
               </div>
             </div>
 

@@ -16,14 +16,13 @@
     <div class="menulo d-flex align-items-center">
 
       <div class="col-11 col-xl-2">
-       <img src="images/logo.png"
-              style="  width: 50%;" alt="logo" class="logomobile ">
+        <img src="images/logo.png" style="  width: 50%;" alt="logo" class="logomobile ">
       </div>
       <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
 
           <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-            <li><a href="index.html" style="color: #000699; "><span>Home</span></a></li>
+            <li><a href="index.php" style="color: #000699; "><span>Home</span></a></li>
             <li class="has-children">
               <a href="about.html" style="color: #000699; "><span>Products</span></a>
               <ul class="dropdown arrow-top">
@@ -59,7 +58,7 @@
               </ul>
             </li>
             <li><a href="listings.html" style="color: #000699; "><span>Pricing</span></a></li>
-            
+
             <li><a href="blog.html" style="color: #000699; "><span>Log in</span></a></li>
             <li class="active"><a href="contact.html" style="color: #000699; "><span>Sign up</span></a></li>
           </ul>
@@ -67,8 +66,11 @@
       </div>
 
 
-      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
-          class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a>
+      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px; right: 82px"><a href="#"
+          class="site-menu-toggle js-menu-toggle text-white bg-primary d-flex align-items-center rounded-pill px-3 py-1">
+          <span class="icon-menu h3 m-0 pe-2"></span>
+          <span style="margin-top: -6px;">menu</span>
+        </a>
       </div>
 
     </div>

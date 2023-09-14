@@ -40,8 +40,7 @@
 
 <body>
 
-  <div class="preheader"
-    style=" line-height: 40px; height: 40px; background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);background-repeat: no-repeat; ">
+  <div class="preheader" style=" line-height: 40px; height: 40px; background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);background-repeat: no-repeat; ">
 
     <p class="  text-white text-center">Notez-Nous fait peau neuve ! Nous sommes fiers de vous présenter notre nouveau
       site internet</p>
@@ -50,25 +49,25 @@
   <?php include 'header.php' ?>
 
   <div class="hero" style="background-image: url('images/bg.png');">
-    <div class="row m-0">
 
-      <div class="position-relative">
-        <div class="image-with-overlay">
-          <img class=" image-etoile" src="images/p0.png" alt="">
-          <div class="overlay-text text-index">
-            <h2 style="color: #000699;">Les 5 étoiles qui feront toute <br>la différence pour votre entreprise.</h2>
-            <p style="color: #000699;">Notez-Nous est LE service de notation qui s'occupe
-              d'améliorer <br>
-              votre réputation en ligne sans dégrader l'image de votre marque et déranger vos
-              clients.</p>
-          </div>
+
+    <div class="position-relative">
+      <div class="image-with-overlay">
+        <img class=" image-etoile" src="images/p0.png" alt="">
+        <div class="overlay-text text-index">
+          <h2 style="color: #000699;">Les 5 étoiles qui feront toute <br>la différence pour votre entreprise.</h2>
+          <p style="color: #000699;">Notez-Nous est LE service de notation qui s'occupe
+            d'améliorer <br>
+            votre réputation en ligne sans dégrader l'image de votre marque et déranger vos
+            clients.</p>
         </div>
       </div>
+    </div>
 
-
+    <div class="row m-0">
 
       <div class="mt-3  col-md-12 d-flex align-items-center justify-content-center">
-        <img src="images/p1.png" alt="" style="max-width: 6%;">
+        <img src="images/p1.png" class="img1">
         <p class="ml-2 mt-2" style="color:#4245a2;">Essayez comme +350 entreprises !</p>
       </div>
 
@@ -77,8 +76,8 @@
       <div class="mt-5 gap-2 button-container d-flex align-items-center justify-content-center flex-wrap">
         <a class="button3" href="#contact">
           Démarrer Maintenant
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="ml-2 bi bi-arrow-right" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="flech ml-2 bi bi-arrow-right"
+            viewBox="0 0 16 16">
             <path fill-rule="evenodd"
               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
           </svg>
@@ -92,13 +91,13 @@
       </div>
 
 
-      <div class="col-md-12" style="background-repeat: no-repeat; background-image: url('images/p2.png');">
-        <div class=" video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8LvYGxF-Km8?si=07HaQOKeEp4KblGB"
+      <div class="row m-auto pt-4">
+        <div class="col-11 m-auto video-container">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8LvYGxF-Km8?si=07HaQOKeEp4KblGB"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen class="video"  style="border-radius:50px;"></iframe>
-          
+            allowfullscreen class="video "></iframe>
+
         </div>
       </div>
 
@@ -106,12 +105,12 @@
       <!-- partie1 -->
 
 
-      <div class=" col-md-12 mt-3"
+      <div class=" col-md-12 mt-5"
         style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
-          <section class="  pt-5 m-auto">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body    col-md-11  m-auto bg-light">
+          <section class="pt-5 m-auto">
             <div class="container">
-              <div class="row">
+              <div class="row ">
 
 
                 <div class="col-md-6">
@@ -211,7 +210,7 @@
 
 
       <div class=" col-md-12 mt-3" style="background-repeat: no-repeat;background-image: url('images/p2.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body    col-md-11  m-auto bg-light">
           <section class="  pt-5 m-auto">
             <div class="container">
               <div class="row">
@@ -250,7 +249,7 @@
 
       <div class=" col-md-12 mt-3"
         style="background-size: contain; background-position:right;  background-repeat: no-repeat;background-image: url('images/p3.png');">
-        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body   col-md-8  m-auto bg-light">
+        <div style="border-radius:40px;" class="shadow-lg p-3 mb-5 bg-body    col-md-11  m-auto bg-light">
           <section class="  pt-5 m-auto">
             <div class="container">
               <div class="row">
@@ -297,7 +296,7 @@
 
       <!-- partie2 -->
 
-      <div class="row m-auto ">
+      <div class="row pt-5 m-auto ">
         <div class="pt-5  col-md-7 m-auto">
           <p style="text-align:center; font-family: cursive; font-size: smaller;color: #d89653;">Le meilleur outils de
             notation !</p>
@@ -342,7 +341,7 @@
         </div>
       </section>
 
-      <section class="  pt-5 m-auto">
+      <section class="  m-auto">
         <div class="container">
           <div class="row">
 
@@ -380,7 +379,7 @@
 
 
 
-      <section class="  pt-5 mr-5 m-auto">
+      <section class="  mr-5 m-auto">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -412,7 +411,7 @@
 
 
 
-      <section class="  pt-5 m-auto">
+      <section class="  m-auto">
         <div class="container">
           <div class="row">
 
@@ -423,7 +422,7 @@
             </div>
 
             <div class="col-md-6">
-              <h2 class="section-title" style="color:#1B66F9;">Faites entrer vos clients dans votre Galaxy</h2>
+              <h2 class="section-title" style="color:#1B66F9;">Faites entrer vos clients dLe meilleur outils ans votre Galaxy</h2>
               <div class="line-dec"></div> <br>
               <p class="mb-5" style="color: #000699;">Votre Galaxy, vous permettra de présenter à vos clients tous vos
                 services,
@@ -622,8 +621,8 @@
 
 
 
-      <div class="row">
-        <div class="col-md-8">
+      <div class="row grid">
+        <div class=" col-md-8">
 
 
           <div class="row" style="">
@@ -683,7 +682,7 @@
             </div>
 
             <div class="col-xl-6   mb-5">
-              <div style="border-radius:30px;" class="bg-body h-100 shadow-lg p-3">
+              <div style="border-radius:30px;" class="bg-body shadow-lg p-3">
                 <img class="mt-3" src="images/p23.png" alt="" style="max-width: 100%;">
                 <div>
                   <h2 class="section-title" style="font-size:30px;color: #000699;">Intégrations</h2>
@@ -722,7 +721,7 @@
 
         <div class="col-md-4">
           <div class="row">
-            <div style="border-radius:30px;" class="bg-body  shadow-lg p-4 h-100">
+            <div style="border-radius:30px;" class="bg-body  shadow-lg p-4 ">
               <img class="mt-2" src="images/p21.png" alt="" style="max-width: 100%;">
               <div>
                 <h2 class="mt-3 section-title" style="font-size:30px;color: #000699;">Répondez à vos avis en 1 seconde
@@ -743,9 +742,9 @@
                 <h2 class="mt-3 section-title" style="font-size:30px;color: #000699;">Répondez à vos avis en 1 seconde
                   chrono.</h2>
                 <div class="line-dec"></div> <br>
-                <p class=" " style="color: #000699; opacity:50%">Avis Google, Tickets d'insatisfaction, Message,
-                  ca pourrait demander un temps monstre à traiter. Mais, avec Notee et nos suggestions de réponses,
-                  vous serez accompagné pour y répondre un 1 sec chrono</p>
+                <p style="    margin-bottom: 115px; text-align:center; font-family: cursive; font-size: smaller;color: #d89653;">Le meilleur
+                  outils de
+                  notation !</p>
 
               </div>
             </div>
@@ -766,7 +765,7 @@
 
           <div class="container">
             <div class="row ">
-              <div class="pt-5  col-md-8 m-auto">
+              <div class="pt-5   col-md-11 m-auto">
 
 
                 <h2 class="section-title" style="text-align:center;color: #fff;"><strong>Ils parlent de nous </strong>
@@ -934,7 +933,7 @@
 
 
                   <div class="row justify-content-between">
-                    <div class=" col-md-8 ">
+                    <div class="  col-md-11 ">
                       <div class="d-flex align-items-center " style="">
 
                         <h6 style="color:#fff" class=" ml-2 mt-1 ">Still have questions?</h6>
@@ -977,14 +976,19 @@
                 <h2 class="section-title" style="color: #fff;">Prêt à faire décoller votre réputation en ligne ?</h2>
                 <p class=" " style="color:#E9D7FE;">Rejoignez +390 entreprises qui utilisent Notez-Nous
                   et collectez enfin vos avis de manière intéligente !</p>
-                <div>
-                  <div class="col-md-9">
+               
 
-                    <button
-                      style="color: #fff;border: none;border-radius: 50px;background: linear-gradient(37deg, rgba(237,124,20,1) 36%, rgba(250,235,161,1) 95%);"
-                      class="btn mt-5 " type="button">Démarrez gratuitement</button>
-                  </div>
-                </div>
+
+                  <a class="button3" href="#contact">
+                    Démarrer Maintenant
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="flech ml-2 bi bi-arrow-right"
+                      viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                  </a>
+
+                
 
               </div>
 

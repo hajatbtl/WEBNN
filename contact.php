@@ -70,7 +70,7 @@
                 </div>
 
 
-                <div class="tab-content mt-3">
+                <div class="tab-content mt-3 tab">
                     <div id="tab1" class="tab-pane fade show active">
                         <div class="row">
                             <div style=" width:100%;border-radius:40px;"
@@ -132,7 +132,16 @@
                         </div>
                     </div>
                     <div id="tab2" class="tab-pane fade">
-                        test
+                       
+
+                    <iframe src="https://rdv.boring-hermann.212-227-197-242.plesk.page/" height="800px" width="100%" title="Iframe Example"></iframe>
+
+
+
+
+
+
+
                     </div>
                 </div>
             </div>

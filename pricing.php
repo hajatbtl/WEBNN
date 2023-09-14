@@ -523,7 +523,7 @@
 
 
 
-
+<div class="ftr"></div>
 </body>
 
 <?php include 'footer.php' ?>
